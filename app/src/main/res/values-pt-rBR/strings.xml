@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Quick Book</string>
+
+    <!-- Titles -->
+    <string name="title_tasks">Tarefas</string>
+    <string name="title_settings">Configurações</string>
+    <string name="title_add_task">Adicionar Tarefa</string>
+    <string name="title_edit_task">Editar Tarefa</string>
+
+    <!-- MainActivity -->
+    <string name="add_task">Adicionar Tarefa</string>
+    <string name="empty_not_saved">A tarefa não foi salva pois está vazia.</string>
+    <string name="task_removed">Tarefa removida</string>
+    <string name="undo">Desfazer</string>
+
+    <!-- Login & Account -->
+    <string name="logout">Sair</string>
+    <string name="sync_email_now">Sincronizar E-mail Agora</string>
+    <string name="sync_started">Sincronização iniciada...</string>
+    <string name="account_settings">Configurações da Conta</string>
+    <string name="keywords_hint">Palavras-chave (ex: urgente, reunião, comprar)</string>
+
+    <!-- Permissions -->
+    <string name="permissions">Permissões</string>
+    <string name="manage_permissions">Gerenciar Permissões</string>
+    <string name="permission_title">Permissões Necessárias</string>
+    <string name="permission_rationale">Para total funcionalidade, o Quick Book precisa de permissões de Notificação e Localização.</string>
+    <string name="grant">Conceder</string>
+    <string name="later">Depois</string>
+
+    <!-- AddEditTaskActivity -->
+    <string name="hint_title">Título</string>
+    <string name="hint_due_date">Data de Entrega</string>
+    <string name="hint_time">Hora</string>
+    <string name="hint_location">Local</string>
+    <string name="label_complexity">Complexidade</string>
+    <string name="button_save">Salvar</string>
+
+    <!-- TaskListAdapter -->
+    <string name="no_due_date">Sem data de entrega</string>
+
+    <!-- Recurring Tasks -->
+    <string name="repeats">Repete</string>
+    <string name="does_not_repeat">Não repetir</string>
+    <string name="daily">Diariamente</string>
+    <string name="weekly">Semanalmente</string>
+    <string name="monthly">Mensalmente</string>
+    <string-array name="repetition_options">
+        <item>@string/does_not_repeat</item>
+        <item>@string/daily</item>
+        <item>@string/weekly</item>
+        <item>@string/monthly</item>
+    </string-array>
+
+    <!-- Language Switcher -->
+    <string name="language">Idioma</string>
+    <string name="choose_language">Escolher Idioma</string>
+
+    <!-- Notification Titles & Bodies -->
+    <string name="new_task_from_email_title">Nova Tarefa do E-mail</string>
+    <string name="task_reminder_notification_title">Lembrete de Tarefa</string>
+    <string name="geofence_notification_title">Lembrete por Localização</string>
+    <string name="email_sync_failed_title">Falha na Sincronização de E-mail</string>
+    <string name="task_reminder_notification_body">Sua tarefa \"%1$s\" está vencendo.</string>
+    <string name="geofence_notification_body">Você está perto do local da tarefa: %1$s</string>
+    <string name="email_sync_auth_failed_body">Falha na autenticação. Verifique sua senha de app nas Configurações.</string>
+    <string name="email_sync_error_body">Ocorreu um erro inesperado durante a sincronização.</string>
+
+</resources>

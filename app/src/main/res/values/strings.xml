@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Quick Book</string>
+
+    <!-- Titles -->
+    <string name="title_tasks">Tasks</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_add_task">Add Task</string>
+    <string name="title_edit_task">Edit Task</string>
+
+    <!-- MainActivity -->
+    <string name="add_task">Add Task</string>
+    <string name="empty_not_saved">Task not saved because it is empty.</string>
+    <string name="task_removed">Task removed</string>
+    <string name="undo">Undo</string>
+
+    <!-- Login & Account -->
+    <string name="logout">Logout</string>
+    <string name="sync_email_now">Sync Email Now</string>
+    <string name="sync_started">Sync started...</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="keywords_hint">Keywords (e.g., urgent, meeting, buy)</string>
+
+    <!-- Permissions -->
+    <string name="permissions">Permissions</string>
+    <string name="manage_permissions">Manage Permissions</string>
+    <string name="permission_title">Permissions Required</string>
+    <string name="permission_rationale">For full functionality, Quick Book needs permissions for Notifications and Location.</string>
+    <string name="grant">Grant</string>
+    <string name="later">Later</string>
+
+    <!-- AddEditTaskActivity -->
+    <string name="hint_title">Title</string>
+    <string name="hint_due_date">Due Date</string>
+    <string name="hint_time">Time</string>
+    <string name="hint_location">Location</string>
+    <string name="label_complexity">Complexity</string>
+    <string name="button_save">Save</string>
+
+    <!-- TaskListAdapter -->
+    <string name="no_due_date">No due date</string>
+
+    <!-- Recurring Tasks -->
+    <string name="repeats">Repeats</string>
+    <string name="does_not_repeat">Does not repeat</string>
+    <string name="daily">Daily</string>
+    <string name="weekly">Weekly</string>
+    <string name="monthly">Monthly</string>
+    <string-array name="repetition_options">
+        <item>@string/does_not_repeat</item>
+        <item>@string/daily</item>
+        <item>@string/weekly</item>
+        <item>@string/monthly</item>
+    </string-array>
+
+    <!-- Language Switcher -->
+    <string name="language">Language</string>
+    <string name="choose_language">Choose Language</string>
+
+    <!-- Notification Titles & Bodies -->
+    <string name="new_task_from_email_title">New Task from Email</string>
+    <string name="task_reminder_notification_title">Task Reminder</string>
+    <string name="geofence_notification_title">Location Reminder</string>
+    <string name="email_sync_failed_title">Email Sync Failed</string>
+    <string name="task_reminder_notification_body">Your task \"%1$s\" is due now.</string>
+    <string name="geofence_notification_body">You are near the location for: %1$s</string>
+    <string name="email_sync_auth_failed_body">Authentication failed. Please check app password in Settings.</string>
+    <string name="email_sync_error_body">An unexpected error occurred during sync.</string>
+
+</resources>

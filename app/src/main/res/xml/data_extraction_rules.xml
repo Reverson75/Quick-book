@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <!--
+          Exclude the encrypted shared preferences file.
+          It's not safe to back up device-encrypted data, as it can't be restored on a new device.
+        -->
+        <exclude domain="sharedpref" path="quickbook_credentials.xml"/>
+        
+        <!-- 
+          Explicitly include the tasks database in the backup.
+          This ensures the user's tasks are restored.
+        -->
+        <include domain="database" path="task_database"/>
+
+    </cloud-backup>
+    <device-transfer>
+        <!-- 
+          For direct device-to-device transfers, we can include the same rules.
+        -->
+        <exclude domain="sharedpref" path="quickbook_credentials.xml"/>
+        <include domain="database" path="task_database"/>
+    </device-transfer>
+</data-extraction-rules>
